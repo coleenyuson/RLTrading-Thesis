@@ -1,0 +1,13 @@
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.exe.config
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.exe
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.pdb
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.Properties.Resources.resources
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.GenerateResource.Cache
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.exe
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.pdb
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formLogin.resources
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formAdminHome.resources
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formEmployee.resources
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csprojAssemblyReference.cache
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.CoreCompileInputs.cache
+D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formSupplier.resources
