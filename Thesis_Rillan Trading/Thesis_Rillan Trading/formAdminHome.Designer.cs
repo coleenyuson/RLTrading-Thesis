@@ -52,7 +52,7 @@
             this.lbl_CompanyName.AutoSize = true;
             this.lbl_CompanyName.Font = new System.Drawing.Font("LuloCleanW01-OneBold", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_CompanyName.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lbl_CompanyName.Location = new System.Drawing.Point(38, 68);
+            this.lbl_CompanyName.Location = new System.Drawing.Point(63, 66);
             this.lbl_CompanyName.Name = "lbl_CompanyName";
             this.lbl_CompanyName.Size = new System.Drawing.Size(504, 56);
             this.lbl_CompanyName.TabIndex = 1;
