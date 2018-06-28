@@ -32,5 +32,10 @@ namespace Thesis_Rillan_Trading
             fAdminHome.Show();
             this.Hide();
         }
+
+        private void formLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

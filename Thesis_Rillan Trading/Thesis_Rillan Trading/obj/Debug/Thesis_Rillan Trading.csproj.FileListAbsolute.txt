@@ -11,3 +11,17 @@ D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Tr
 D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csprojAssemblyReference.cache
 D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.CoreCompileInputs.cache
 D:\THESIS\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formSupplier.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.exe.config
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.exe
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Thesis_Rillan Trading.pdb
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csprojAssemblyReference.cache
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formAdminHome.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formCustomer.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formEmployee.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formLogin.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formSupplier.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.Properties.Resources.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.GenerateResource.cache
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.CoreCompileInputs.cache
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.exe
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.pdb
