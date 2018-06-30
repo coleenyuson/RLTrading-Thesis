@@ -18,9 +18,14 @@ namespace Thesis_Rillan_Trading
 
         }
 
+        //- - - Database - - -
+        MySql.Data.MySqlClient.MySqlConnection conn; //connection string
+        String connString = "server=localhost; uid=root; pwd=root; database=rillan_trading";
+
         //- - - Variable for Form Reference - - -
         public Form refLogin { get; set; } 
         public Form refEmployee { get; set; }
+        
 
         public formAdminHome()
         {

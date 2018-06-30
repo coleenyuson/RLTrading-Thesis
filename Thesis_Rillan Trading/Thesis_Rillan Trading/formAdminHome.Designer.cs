@@ -52,7 +52,7 @@
             this.lbl_CompanyName.AutoSize = true;
             this.lbl_CompanyName.Font = new System.Drawing.Font("LuloCleanW01-OneBold", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_CompanyName.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lbl_CompanyName.Location = new System.Drawing.Point(63, 66);
+            this.lbl_CompanyName.Location = new System.Drawing.Point(38, 53);
             this.lbl_CompanyName.Name = "lbl_CompanyName";
             this.lbl_CompanyName.Size = new System.Drawing.Size(504, 56);
             this.lbl_CompanyName.TabIndex = 1;
@@ -65,9 +65,9 @@
             this.pnl_Footer.BackColor = System.Drawing.Color.SteelBlue;
             this.pnl_Footer.Controls.Add(this.lbl_Role);
             this.pnl_Footer.Controls.Add(this.lbl_DateTime);
-            this.pnl_Footer.Location = new System.Drawing.Point(-3, 488);
+            this.pnl_Footer.Location = new System.Drawing.Point(-3, 424);
             this.pnl_Footer.Name = "pnl_Footer";
-            this.pnl_Footer.Size = new System.Drawing.Size(585, 31);
+            this.pnl_Footer.Size = new System.Drawing.Size(585, 38);
             this.pnl_Footer.TabIndex = 2;
             this.pnl_Footer.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Footer_Paint);
             // 
@@ -77,7 +77,7 @@
             this.lbl_Role.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_Role.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Role.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_Role.Location = new System.Drawing.Point(11, 5);
+            this.lbl_Role.Location = new System.Drawing.Point(3, 5);
             this.lbl_Role.Name = "lbl_Role";
             this.lbl_Role.Size = new System.Drawing.Size(112, 23);
             this.lbl_Role.TabIndex = 3;
@@ -88,7 +88,7 @@
             this.lbl_DateTime.AutoSize = true;
             this.lbl_DateTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DateTime.ForeColor = System.Drawing.Color.White;
-            this.lbl_DateTime.Location = new System.Drawing.Point(418, 8);
+            this.lbl_DateTime.Location = new System.Drawing.Point(424, 7);
             this.lbl_DateTime.Name = "lbl_DateTime";
             this.lbl_DateTime.Size = new System.Drawing.Size(158, 20);
             this.lbl_DateTime.TabIndex = 3;
@@ -176,7 +176,7 @@
             this.btn_Reports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Reports.Font = new System.Drawing.Font("LuloCleanW01-One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Reports.Image = global::Thesis_Rillan_Trading.Properties.Resources.icons8_Ratings_100px;
-            this.btn_Reports.Location = new System.Drawing.Point(292, 315);
+            this.btn_Reports.Location = new System.Drawing.Point(292, 268);
             this.btn_Reports.Name = "btn_Reports";
             this.btn_Reports.Size = new System.Drawing.Size(150, 150);
             this.btn_Reports.TabIndex = 7;
@@ -191,7 +191,7 @@
             this.btn_Inventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Inventory.Font = new System.Drawing.Font("LuloCleanW01-One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Inventory.Image = global::Thesis_Rillan_Trading.Properties.Resources.icons8_Product_100px;
-            this.btn_Inventory.Location = new System.Drawing.Point(292, 144);
+            this.btn_Inventory.Location = new System.Drawing.Point(292, 112);
             this.btn_Inventory.Name = "btn_Inventory";
             this.btn_Inventory.Size = new System.Drawing.Size(150, 150);
             this.btn_Inventory.TabIndex = 4;
@@ -206,7 +206,7 @@
             this.btn_Sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Sales.Font = new System.Drawing.Font("LuloCleanW01-One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sales.Image = global::Thesis_Rillan_Trading.Properties.Resources.icons8_Cash_in_Hand_100px;
-            this.btn_Sales.Location = new System.Drawing.Point(126, 144);
+            this.btn_Sales.Location = new System.Drawing.Point(126, 112);
             this.btn_Sales.Name = "btn_Sales";
             this.btn_Sales.Size = new System.Drawing.Size(150, 150);
             this.btn_Sales.TabIndex = 3;
@@ -221,7 +221,7 @@
             this.btn_Customer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Customer.Font = new System.Drawing.Font("LuloCleanW01-One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Customer.Image = global::Thesis_Rillan_Trading.Properties.Resources.icons8_Customer_100px;
-            this.btn_Customer.Location = new System.Drawing.Point(126, 315);
+            this.btn_Customer.Location = new System.Drawing.Point(126, 268);
             this.btn_Customer.Name = "btn_Customer";
             this.btn_Customer.Size = new System.Drawing.Size(150, 150);
             this.btn_Customer.TabIndex = 5;
@@ -233,7 +233,7 @@
             // formAdminHome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(579, 519);
+            this.ClientSize = new System.Drawing.Size(579, 458);
             this.Controls.Add(this.pnl_Header);
             this.Controls.Add(this.btn_Reports);
             this.Controls.Add(this.btn_Customer);
