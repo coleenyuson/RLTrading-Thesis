@@ -43,11 +43,10 @@
             this.tbox_Username.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.tbox_Username.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbox_Username.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.tbox_Username.Location = new System.Drawing.Point(122, 236);
+            this.tbox_Username.Location = new System.Drawing.Point(125, 208);
             this.tbox_Username.Name = "tbox_Username";
             this.tbox_Username.Size = new System.Drawing.Size(248, 30);
             this.tbox_Username.TabIndex = 2;
-            this.tbox_Username.Text = "username";
             this.tbox_Username.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbox_Password
@@ -56,12 +55,11 @@
             this.tbox_Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbox_Password.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbox_Password.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.tbox_Password.Location = new System.Drawing.Point(122, 272);
+            this.tbox_Password.Location = new System.Drawing.Point(125, 244);
             this.tbox_Password.Name = "tbox_Password";
             this.tbox_Password.PasswordChar = '●';
             this.tbox_Password.Size = new System.Drawing.Size(248, 30);
             this.tbox_Password.TabIndex = 5;
-            this.tbox_Password.Text = "Password";
             this.tbox_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
@@ -69,7 +67,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(186, 377);
+            this.label1.Location = new System.Drawing.Point(189, 349);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 19);
             this.label1.TabIndex = 6;
@@ -84,7 +82,7 @@
             this.btn_Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Login.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Login.Location = new System.Drawing.Point(122, 319);
+            this.btn_Login.Location = new System.Drawing.Point(125, 291);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(248, 35);
             this.btn_Login.TabIndex = 7;
@@ -95,7 +93,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Thesis_Rillan_Trading.Properties.Resources.icons8_User_100px;
-            this.pictureBox1.Location = new System.Drawing.Point(190, 101);
+            this.pictureBox1.Location = new System.Drawing.Point(193, 91);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(114, 111);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

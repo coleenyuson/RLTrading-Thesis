@@ -7,29 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using MySql.Data.MySqlClient;
 
 namespace Thesis_Rillan_Trading
 {
     public partial class formAdminHome : Form
     {
-        //- - - Form Load - - -
-        private void formAdminHome_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         //- - - Database - - -
-        MySql.Data.MySqlClient.MySqlConnection conn; //connection string
-        String connString = "server=localhost; uid=root; pwd=root; database=rillan_trading";
+        //public MySqlConnection conn; //connection string
 
         //- - - Variable for Form Reference - - -
         public Form refLogin { get; set; } 
         public Form refEmployee { get; set; }
+        public int ref_empID;
         
-
         public formAdminHome()
         {
             InitializeComponent();
+            //conn = new MySqlConnection("Server=localhost; Database=rillan_trading; Uid=root; Pwd=root;");
+        }
+
+        //- - - Form Load - - -
+        private void formAdminHome_Load(object sender, EventArgs e)
+        {
+
         }
 
         //- - - Login Buttons - - - 
@@ -59,10 +62,7 @@ namespace Thesis_Rillan_Trading
 
         private void btn_Employee_Click(object sender, EventArgs e)
         {
-            formEmployee fEmp = new formEmployee();
-            fEmp.refAdminHome = this;
-            fEmp.Show();
-            this.Hide();
+            
         }
 
         private void btn_Reports_Click(object sender, EventArgs e)
@@ -70,9 +70,12 @@ namespace Thesis_Rillan_Trading
 
         }
 
-        private void btn_Supplier_Click(object sender, EventArgs e)
+        private void btn_Settings_Click(object sender, EventArgs e)
         {
-
+            formEmployee fEmp = new formEmployee();
+            fEmp.refAdminHome = this;
+            fEmp.Show();
+            this.Hide();
         }
 
         //- - - Others - - -
@@ -90,5 +93,12 @@ namespace Thesis_Rillan_Trading
         {
 
         }
+
+        private void lbl_Name_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
