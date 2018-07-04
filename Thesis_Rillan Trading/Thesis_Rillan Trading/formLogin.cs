@@ -23,6 +23,8 @@ namespace Thesis_Rillan_Trading
         public Form refEmployee { get; set; }
 
         public int empID;
+        string username, password;
+        int stat;
 
         public formLogin()
         {
@@ -64,28 +66,23 @@ namespace Thesis_Rillan_Trading
                     conn.Open(); // Connection opened
 
                     // Get data from DB
-                    MySqlCommand comm = new MySqlCommand("SELECT * FROM employee WHERE emp_username = '" + tbox_Username.Text + "' AND emp_password = '" + tbox_Password.Text + "'", conn);
+                    MySqlCommand comm = new MySqlCommand("SELECT * FROM employee WHERE emp_username = '" + tbox_Username.Text + "' AND emp_password = '" + 
+                        tbox_Password.Text + "'", conn);
                     MySqlDataAdapter adp = new MySqlDataAdapter(comm);
                     DataTable dt = new DataTable();
                     adp.Fill(dt);
                     conn.Close();
 
-
+                    
                     if (dt.Rows.Count == 1) // DB returned 1 row  
                     {
-                        string username, password;
-                        int stat;
-
+                        
                         // gets data from DB >> pass the values to its corresponding variables
                         username = dt.Rows[0]["emp_username"].ToString();
                         password = dt.Rows[0]["emp_password"].ToString();
                         stat = int.Parse(dt.Rows[0]["emp_status"].ToString());
                         empID = int.Parse(dt.Rows[0]["emp_id"].ToString());
-
-                        if (tbox_Username.Text != username || tbox_Password.Text != password)
-                        {
-                            MessageBox.Show("The user credentials are incorrect.", "", MessageBoxButtons.OK);
-                        }
+                        
 
                         if (tbox_Username.Text == username && tbox_Password.Text == password)
                         {
@@ -105,6 +102,10 @@ namespace Thesis_Rillan_Trading
 
                         }
                         
+                    }
+                    else if (tbox_Username.Text != username || tbox_Password.Text != password)
+                    {
+                        MessageBox.Show("The user credentials are incorrect.", "Error!", MessageBoxButtons.OK);
                     }
                 }
             }

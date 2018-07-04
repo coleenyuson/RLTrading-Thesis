@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl_CompanyName = new System.Windows.Forms.Label();
             this.pnl_Footer = new System.Windows.Forms.Panel();
             this.lbl_Role = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@
             this.btn_Customer = new System.Windows.Forms.Button();
             this.btn_Inventory = new System.Windows.Forms.Button();
             this.btn_Sales = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.pnl_Footer.SuspendLayout();
             this.pnl_Header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_User)).BeginInit();
@@ -65,9 +67,9 @@
             this.pnl_Footer.BackColor = System.Drawing.Color.SteelBlue;
             this.pnl_Footer.Controls.Add(this.lbl_Role);
             this.pnl_Footer.Controls.Add(this.lbl_DateTime);
-            this.pnl_Footer.Location = new System.Drawing.Point(-8, 284);
+            this.pnl_Footer.Location = new System.Drawing.Point(-8, 289);
             this.pnl_Footer.Name = "pnl_Footer";
-            this.pnl_Footer.Size = new System.Drawing.Size(815, 38);
+            this.pnl_Footer.Size = new System.Drawing.Size(815, 33);
             this.pnl_Footer.TabIndex = 2;
             this.pnl_Footer.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Footer_Paint);
             // 
@@ -175,6 +177,7 @@
             this.btn_Supplier.Text = "SUPPLIER";
             this.btn_Supplier.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_Supplier.UseVisualStyleBackColor = true;
+            this.btn_Supplier.Click += new System.EventHandler(this.btn_Supplier_Click);
             // 
             // btn_Reports
             // 
@@ -284,5 +287,6 @@
         private System.Windows.Forms.Button btn_Sales;
         private System.Windows.Forms.Button btn_Customer;
         private System.Windows.Forms.Button btn_Supplier;
+        private System.Windows.Forms.Timer timer;
     }
 }
