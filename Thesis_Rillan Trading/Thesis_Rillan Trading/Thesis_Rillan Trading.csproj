@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,6 +52,12 @@
     </Compile>
     <Compile Include="formAdminHome.Designer.cs">
       <DependentUpon>formAdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAdminSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdminSettings.Designer.cs">
+      <DependentUpon>formAdminSettings.cs</DependentUpon>
     </Compile>
     <Compile Include="formCustomer.cs">
       <SubType>Form</SubType>
@@ -80,6 +87,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="formAdminHome.resx">
       <DependentUpon>formAdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdminSettings.resx">
+      <DependentUpon>formAdminSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formCustomer.resx">
       <DependentUpon>formCustomer.cs</DependentUpon>
@@ -181,6 +191,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Supplier_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icons8_Edit_100px.png" />
+    <None Include="Resources\icons8_Edit_100px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
