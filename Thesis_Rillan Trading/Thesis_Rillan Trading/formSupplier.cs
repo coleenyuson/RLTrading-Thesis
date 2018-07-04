@@ -37,6 +37,28 @@ namespace Thesis_Rillan_Trading
             this.Hide();
         }
 
-     
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            formLogin fLogin = new formLogin();
+            fLogin.refSupplier = this;
+            fLogin.Show();
+            this.Hide();
+        }
+
+        private void btn_Settings_Click(object sender, EventArgs e)
+        {
+            formEmployee fEmp = new formEmployee();
+            fEmp.refSupplier = this;
+            fEmp.Show();
+            this.Hide();
+        }
+
+        private void formSupplier_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formLogin fLogin = new formLogin();
+            fLogin.refSupplier = this;
+            fLogin.Show();
+            this.Close(); // bug
+        }
     }
 }
