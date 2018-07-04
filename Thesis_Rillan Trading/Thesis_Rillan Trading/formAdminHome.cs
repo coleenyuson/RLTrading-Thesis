@@ -105,6 +105,15 @@ namespace Thesis_Rillan_Trading
 
         }
 
-        
+        // - - When user wants to close window - - 
+        private void formAdminHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formLogin fLogin = new formLogin();
+            fLogin.refAdminHome = this;
+            fLogin.Show();
+            this.Close();
+        }
+
+
     }
 }

@@ -19,6 +19,7 @@ namespace Thesis_Rillan_Trading
 
         // Variable for Reference Forms
         public Form refAdminHome { get; set; }
+        public Form refSupplier { get; set; }
         public int ref_Emp_empID;
 
 
@@ -84,19 +85,7 @@ namespace Thesis_Rillan_Trading
         // Info Button - - Create/Find
         private void btn_Info_Click(object sender, EventArgs e)
         {
-            /*This happens, when Info is clicked. Change to create mode.
-             * 
-             * if (btn_Info.Text == "Create Mode")
-            {
-                btn_Submit.Enabled = false;
-
-                // Field Colors change to Blue for Search Mode
-                tbox_firstName.BackColor = Color.LightBlue;
-                tbox_lastName.BackColor = Color.LightBlue;
-                tbox_middleName.BackColor = Color.LightBlue;
-                tbox_mobileNum.BackColor = Color.LightBlue;
-            }
-            */
+          
         }
 
         private void pnl_Header_Paint(object sender, PaintEventArgs e)
@@ -117,6 +106,14 @@ namespace Thesis_Rillan_Trading
         private void tbox_lastName_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void formEmployee_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formLogin fLogin = new formLogin();
+            fLogin.refEmployee = this;
+            fLogin.Show();
+            this.Close(); //bug
         }
     }
 }

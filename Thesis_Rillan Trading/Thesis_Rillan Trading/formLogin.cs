@@ -21,6 +21,7 @@ namespace Thesis_Rillan_Trading
         //Variables
         public Form refAdminHome { get; set; }
         public Form refEmployee { get; set; }
+        public Form refSupplier { get; set; }
 
         public int empID;
         string username, password;
@@ -34,6 +35,9 @@ namespace Thesis_Rillan_Trading
 
         private void formLogin_Load(object sender, EventArgs e)
         {
+            timer.Start();
+            lbl_dateTime.Text = DateTime.Now.ToShortTimeString() + " " + DateTime.Now.ToLongDateString();
+
             try
             {
                 conn.Open();
@@ -49,6 +53,21 @@ namespace Thesis_Rillan_Trading
             {
                 conn.Close();
             }
+        }
+
+        private void tbox_Username_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbox_Username.Text = "";
+        }
+
+        private void tbox_Password_MouseClick(object sender, MouseEventArgs e)
+        {
+            tbox_Password.Text = "";
+        }
+
+        private void formLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Dispose(); // clean memory
         }
 
         private void btn_Login_Click(object sender, EventArgs e)
@@ -116,6 +135,8 @@ namespace Thesis_Rillan_Trading
             }
             
         }
+
+
 
 
     }
