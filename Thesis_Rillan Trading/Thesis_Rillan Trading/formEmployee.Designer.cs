@@ -472,7 +472,7 @@
             this.pnl_Footer.Controls.Add(this.label3);
             this.pnl_Footer.Controls.Add(this.label1);
             this.pnl_Footer.Controls.Add(this.lbl_DateTime);
-            this.pnl_Footer.Location = new System.Drawing.Point(-2, 749);
+            this.pnl_Footer.Location = new System.Drawing.Point(-2, 757);
             this.pnl_Footer.Name = "pnl_Footer";
             this.pnl_Footer.Size = new System.Drawing.Size(1303, 30);
             this.pnl_Footer.TabIndex = 24;
@@ -577,7 +577,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1293, 774);
+            this.ClientSize = new System.Drawing.Size(1289, 786);
             this.ControlBox = false;
             this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.pnl_userSettings);
