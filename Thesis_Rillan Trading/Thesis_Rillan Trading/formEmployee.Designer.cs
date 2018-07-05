@@ -356,6 +356,7 @@
             this.tbox_Search.Size = new System.Drawing.Size(239, 27);
             this.tbox_Search.TabIndex = 5;
             this.tbox_Search.Text = "Search";
+            this.tbox_Search.TextChanged += new System.EventHandler(this.tbox_Search_TextChanged);
             // 
             // cmbBox_filter
             // 
@@ -557,6 +558,7 @@
             this.btn_refresh.TabIndex = 26;
             this.btn_refresh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_refresh.UseVisualStyleBackColor = false;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
             // picBox_Search
             // 
@@ -564,17 +566,18 @@
             this.picBox_Search.Image = ((System.Drawing.Image)(resources.GetObject("picBox_Search.Image")));
             this.picBox_Search.Location = new System.Drawing.Point(835, 64);
             this.picBox_Search.Name = "picBox_Search";
-            this.picBox_Search.Size = new System.Drawing.Size(35, 35);
+            this.picBox_Search.Size = new System.Drawing.Size(32, 32);
             this.picBox_Search.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picBox_Search.TabIndex = 19;
             this.picBox_Search.TabStop = false;
+            this.picBox_Search.Click += new System.EventHandler(this.picBox_Search_Click);
             // 
             // formEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1297, 778);
+            this.ClientSize = new System.Drawing.Size(1293, 774);
             this.ControlBox = false;
             this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.pnl_userSettings);

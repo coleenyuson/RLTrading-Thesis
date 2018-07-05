@@ -29,4 +29,6 @@ D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Tra
 D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\Google.Protobuf.dll
 D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\bin\Debug\MySql.Data.xml
 D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan Trading.csproj.CopyComplete
-D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formAdminSettings.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.formInventoryMgt.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.productMgt.resources
+D:\Program Files\GitHub\RLTrading-Thesis\Thesis_Rillan Trading\Thesis_Rillan Trading\obj\Debug\Thesis_Rillan_Trading.inventoryHome.resources

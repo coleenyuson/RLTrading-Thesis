@@ -22,6 +22,7 @@ namespace Thesis_Rillan_Trading
         public Form refAdminHome { get; set; }
         public Form refEmployee { get; set; }
         public Form refSupplier { get; set; }
+        public Form refInventory { get; set; }
 
         public int empID;
         string username, password;

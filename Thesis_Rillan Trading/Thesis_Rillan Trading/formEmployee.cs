@@ -21,6 +21,7 @@ namespace Thesis_Rillan_Trading
         public Form refAdminHome { get; set; }
         public Form refSupplier { get; set; }
         public int ref_Emp_empID;
+        public Form refInventory { get; set; }
 
 
         public formEmployee()
@@ -114,6 +115,21 @@ namespace Thesis_Rillan_Trading
             fLogin.refEmployee = this;
             fLogin.Show();
             this.Close(); //bug
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picBox_Search_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbox_Search_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
