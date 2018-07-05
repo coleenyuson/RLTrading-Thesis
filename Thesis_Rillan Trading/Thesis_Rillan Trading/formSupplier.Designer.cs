@@ -261,7 +261,7 @@
             // btn_refresh
             // 
             this.btn_refresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_refresh.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_refresh.BackColor = System.Drawing.Color.Gainsboro;
             this.btn_refresh.FlatAppearance.BorderSize = 0;
             this.btn_refresh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SteelBlue;
             this.btn_refresh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
@@ -377,6 +377,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1106, 621);
             this.ControlBox = false;
             this.Controls.Add(this.btn_refresh);

@@ -22,6 +22,7 @@ namespace Thesis_Rillan_Trading
         public Form refLogin { get; set; } 
         public Form refEmployee { get; set; }
         public Form refSupplier { get; set; }
+        public Form refInventory { get; set; }
 
         public int ref_empID;
         
@@ -55,7 +56,10 @@ namespace Thesis_Rillan_Trading
 
         private void btn_Inventory_Click(object sender, EventArgs e)
         {
-
+            formInventoryMgt fInv = new formInventoryMgt();
+            fInv.refHome = this;
+            fInv.Show();
+            this.Hide();
         }
 
         private void btn_Supplier_Click(object sender, EventArgs e)
