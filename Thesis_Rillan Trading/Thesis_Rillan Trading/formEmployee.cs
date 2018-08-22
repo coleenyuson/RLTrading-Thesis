@@ -7,16 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace Thesis_Rillan_Trading
 {
     public partial class formEmployee : Form
     {
-        // Variable 
-        public MySqlConnection conn;
-
-
+        
         // Variable for Reference Forms
         public Form refAdminHome { get; set; }
         public Form refSupplier { get; set; }
@@ -27,7 +23,6 @@ namespace Thesis_Rillan_Trading
         public formEmployee()
         {
             InitializeComponent();
-            conn = new MySqlConnection("Server=localhost; Database=rillan_trading; Uid=root; Pwd=root;");
         }
 
         // - - - Form Load - - -
@@ -37,25 +32,6 @@ namespace Thesis_Rillan_Trading
             timer.Start();
             lbl_DateTime.Text = DateTime.Now.ToShortTimeString() + " " + DateTime.Now.ToLongDateString();
 
-            // - - Data Grid View - - 
-            try
-            {
-                conn.Open();
-
-                MySqlCommand comm = new MySqlCommand("SELECT * FROM employee", conn);
-                MySqlDataAdapter adp = new MySqlDataAdapter(comm);
-                DataTable dt = new DataTable();
-                adp.Fill(dt);
-                dataGV_Emp.DataSource = dt; // filing in data from database to datagridview
-
-                
-
-                conn.Close();
-            }
-            catch (Exception ee)
-            {
-                conn.Close();
-            }
         }
 
         // Logout Button
